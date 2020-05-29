@@ -1,0 +1,73 @@
+#stop:hover {
+    /*transition: 0.3s;*/
+    background-color: #333;
+    color: white;
+}
+
+#stop {
+    border-radius: 1em;
+    border: solid #333 0.2em;
+}
+
+.a {
+    color :blue;}
+
+#aj {
+    width: 100%;
+    margin-top: 2em;
+}
+
+/*Header*/
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+    color: white;
+    line-height: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /*Pour éviter que les boutons ne passent sur le header*/
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#main {
+    margin-top: 4.3em;
+    margin-bottom: 4em;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    border-top: solid 0.2em red;
+    border-bottom: solid 0.2em red;
+    text-shadow: 0 0;
+    font-size: smaller;
+    font-weight: 100;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    line-height: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#footer h1 {
+    text-align: center;
+}
+
+#footer:hover{
+   background-color: white;
+   color: red;
+   border-top: solid 0.3em red;
+   border-bottom: solid 0.3em red;
+}
+
+#descr {
+    margin-top: 1.5em;
+}
